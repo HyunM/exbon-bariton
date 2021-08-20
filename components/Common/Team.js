@@ -1,129 +1,84 @@
-import React, { Component } from 'react';
-import Link from 'next/link';
+import React, { Component } from "react";
+import Link from "next/link";
 
 class Team extends Component {
-    render() {
-        return (
-            <section className="team-area ptb-110">
-                <div className="container">
-                    <div className="section-title">
-                        <h2>Meet Our Team</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
+  render() {
+    return (
+      <section className="team-area ptb-110">
+        <div className="container">
+          <div className="section-title">
+            <h2>Featured Projects</h2>
+          </div>
 
-                    <div className="row">
-                        <div className="col-lg-3 col-sm-6">
-                            <div className="single-team-box">
-                                <div className="image">
-                                    <img src="/images/team/team1.jpg" alt="Team Image" />
-
-                                    <div className="social">
-                                        <a href="https://www.facebook.com/" target="_blank">
-                                            <i className="fab fa-facebook-f"></i>
-                                        </a> 
- 
-                                        <a href="https://twitter.com/" target="_blank">
-                                            <i className="fab fa-twitter"></i>
-                                        </a>
-                                 
-                                        <a href="https://www.instagram.com/" target="_blank">
-                                            <i className="fab fa-instagram"></i>
-                                        </a> 
-                                    </div>
-                                </div>
-
-                                <div className="content">
-                                    <h3>John Smith</h3>
-                                    <span>CEO & Founder</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-3 col-sm-6">
-                            <div className="single-team-box">
-                                <div className="image">
-                                    <img src="/images/team/team2.jpg" alt="Team Image" />
-
-                                    <div className="social">
-                                        <a href="https://www.facebook.com/" target="_blank">
-                                            <i className="fab fa-facebook-f"></i>
-                                        </a> 
- 
-                                        <a href="https://twitter.com/" target="_blank">
-                                            <i className="fab fa-twitter"></i>
-                                        </a>
-                                 
-                                        <a href="https://www.instagram.com/" target="_blank">
-                                            <i className="fab fa-instagram"></i>
-                                        </a> 
-                                    </div>
-                                </div>
-
-                                <div className="content">
-                                    <h3>Lucy Eva</h3>
-                                    <span>React Developer</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-3 col-sm-6">
-                            <div className="single-team-box">
-                                <div className="image">
-                                    <img src="/images/team/team3.jpg" alt="Team Image" />
-
-                                    <div className="social">
-                                        <a href="https://www.facebook.com/" target="_blank">
-                                            <i className="fab fa-facebook-f"></i>
-                                        </a> 
- 
-                                        <a href="https://twitter.com/" target="_blank">
-                                            <i className="fab fa-twitter"></i>
-                                        </a>
-                                 
-                                        <a href="https://www.instagram.com/" target="_blank">
-                                            <i className="fab fa-instagram"></i>
-                                        </a> 
-                                    </div>
-                                </div>
-
-                                <div className="content">
-                                    <h3>Steven Smith</h3>
-                                    <span>Web Developer</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-3 col-sm-6">
-                            <div className="single-team-box">
-                                <div className="image">
-                                    <img src="/images/team/team4.jpg" alt="Team Image" />
-
-                                    <div className="social">
-                                        <a href="https://www.facebook.com/" target="_blank">
-                                            <i className="fab fa-facebook-f"></i>
-                                        </a> 
- 
-                                        <a href="https://twitter.com/" target="_blank">
-                                            <i className="fab fa-twitter"></i>
-                                        </a>
-                                 
-                                        <a href="https://www.instagram.com/" target="_blank">
-                                            <i className="fab fa-instagram"></i>
-                                        </a> 
-                                    </div>
-                                </div>
-
-                                <div className="content">
-                                    <h3>Sarah Taylor</h3>
-                                    <span>Designer</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+          <div className="row">
+            <div className="col-lg-3 col-sm-6">
+              <div className="single-team-box">
+                <div className="image">
+                  <img
+                    src="/images/project_1.jpg"
+                    alt="Complete Office Remodeling"
+                  />
                 </div>
-            </section>
-        );
-    }
+
+                <div className="content">
+                  <h3>Complete Office Remodeling</h3>
+                  <span>Orange County</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-3 col-sm-6">
+              <div className="single-team-box">
+                <div className="image">
+                  <img
+                    src="/images/project_2.jpg"
+                    alt="Plumbing, Electrical, Structural Steel, etc"
+                  />
+                </div>
+
+                <div className="content">
+                  <h3>Plumbing, Electrical, Structural Steel, etc.</h3>
+                  <span>Los Angeles, CA</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-3 col-sm-6">
+              <div className="single-team-box">
+                <div className="image">
+                  <img
+                    src="/images/project_3.jpg"
+                    alt="Masonry, Painting, Roofing, Landscaping, etc."
+                  />
+                </div>
+
+                <div className="content">
+                  <h3>Masonry, Painting, Roofing, Landscaping, etc.</h3>
+                  <span>Orange County Parks</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-3 col-sm-6">
+              <div className="single-team-box">
+                <div className="image">
+                  <img
+                    src="/images/project_4.jpg"
+                    alt="Demolition, Temporary Facility, Abatement, etc."
+                  />
+                </div>
+
+                <div className="content">
+                  <h3>Demolition, Temporary Facility, Abatement, etc.</h3>
+                  <span>Belmont Plaza, CA</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+  }
 }
 
 export default Team;

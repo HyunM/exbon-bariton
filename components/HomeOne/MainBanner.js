@@ -18,7 +18,7 @@ class MainBanner extends Component {
                 </p>
 
                 <div className="btn-box">
-                  <Link href="/contact">
+                  <Link href="/#">
                     <a className="btn btn-primary">Read More</a>
                   </Link>
 
@@ -37,11 +37,11 @@ class MainBanner extends Component {
               <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="single-featured-services-box">
                   <div className="icon">
-                    <i className="flaticon-robot"></i>
+                    <i className="flaticon-ceo"></i>
                   </div>
 
                   <h3>
-                    <Link href="/service-details">
+                    <Link href="/#">
                       <a>Exbon Development, Inc.</a>
                     </Link>
                   </h3>
@@ -60,7 +60,7 @@ class MainBanner extends Component {
                   </div>
 
                   <h3>
-                    <Link href="/service-details">
+                    <Link href="/#">
                       <a>Construction & Remodeling</a>
                     </Link>
                   </h3>
@@ -75,18 +75,19 @@ class MainBanner extends Component {
               <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
                 <div className="single-featured-services-box">
                   <div className="icon">
-                    <i className="flaticon-machine-learning"></i>
+                    <i className="flaticon-gear"></i>
                   </div>
 
                   <h3>
-                    <Link href="/service-details">
-                      <a>Exbon Development, Inc.</a>
+                    <Link href="/#">
+                      <a>Together, we build better</a>
                     </Link>
                   </h3>
                   <p>
-                    Over the years, Exbon Development Inc. has built a solid
-                    reputation by providing commercial and public building
-                    related construction.
+                    With our proven record of successfully working at various
+                    constructions sites for the past decades, we now have the
+                    resources, knowledge, and experiences to undertake ANY JOB,
+                    ANYWHERE around the world.
                   </p>
                 </div>
               </div>
