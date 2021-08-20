@@ -4,9 +4,9 @@
     "description": "Bariton - React Next IT & Machine Learning Template",
     "main": "index.js",
     "scripts": {
-        "dev": "next dev -p 1001",
+        "dev": "next dev -p 5001",
         "build": "next build",
-        "start": "next start",
+        "start": "next start -p 5200",
         "export": "next export"
     },
     "author": "EnvyTheme.com",
