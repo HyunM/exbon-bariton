@@ -1,76 +1,32 @@
 {
-  "..\\components\\AboutTwo\\PartnerSlider.js -> react-owl-carousel3": {
-    "id": 8694,
-    "files": [
-      "static/chunks/617777a1.1355af0053c0d8407a5e.js"
-    ]
-  },
   "..\\components\\Common\\FeedbackSlider.js -> react-owl-carousel3": {
-    "id": 8694,
+    "id": "./node_modules/react-owl-carousel3/lib/OwlCarousel.js",
     "files": [
-      "static/chunks/617777a1.1355af0053c0d8407a5e.js"
-    ]
-  },
-  "..\\components\\Common\\PartnerSlider.js -> react-owl-carousel3": {
-    "id": 8694,
-    "files": [
-      "static/chunks/617777a1.1355af0053c0d8407a5e.js"
-    ]
-  },
-  "..\\components\\HomeFive\\CustomerFeedback.js -> react-owl-carousel3": {
-    "id": 8694,
-    "files": [
-      "static/chunks/617777a1.1355af0053c0d8407a5e.js"
-    ]
-  },
-  "..\\components\\HomeFive\\PartnerSlider.js -> react-owl-carousel3": {
-    "id": 8694,
-    "files": [
-      "static/chunks/617777a1.1355af0053c0d8407a5e.js"
+      "static/chunks/node_modules_react-owl-carousel3_lib_OwlCarousel_js.js"
     ]
   },
   "..\\components\\HomeFour\\MainBanner.js -> react-owl-carousel3": {
-    "id": 8694,
+    "id": "./node_modules/react-owl-carousel3/lib/OwlCarousel.js",
     "files": [
-      "static/chunks/617777a1.1355af0053c0d8407a5e.js"
+      "static/chunks/node_modules_react-owl-carousel3_lib_OwlCarousel_js.js"
     ]
   },
   "..\\components\\HomeFour\\Webinar.js -> react-modal-video": {
-    "id": 1239,
+    "id": "./node_modules/react-modal-video/lib/index.js",
     "files": [
-      "static/chunks/framework-c93ed74a065331c4bd75.js",
-      "static/chunks/239.84c6ed6481b8c6956532.js"
+      "static/chunks/node_modules_react-modal-video_lib_index_js.js"
     ]
   },
   "..\\components\\HomeOne\\Webinar.js -> react-modal-video": {
-    "id": 1239,
+    "id": "./node_modules/react-modal-video/lib/index.js",
     "files": [
-      "static/chunks/framework-c93ed74a065331c4bd75.js",
-      "static/chunks/239.84c6ed6481b8c6956532.js"
+      "static/chunks/node_modules_react-modal-video_lib_index_js.js"
     ]
   },
-  "..\\components\\HomeThree\\Projects.js -> react-owl-carousel3": {
-    "id": 8694,
+  "..\\node_modules\\next\\dist\\client\\next-dev.js -> ./dev/noop": {
+    "id": "./node_modules/next/dist/client/dev/noop.js",
     "files": [
-      "static/chunks/617777a1.1355af0053c0d8407a5e.js"
-    ]
-  },
-  "..\\components\\HomeThree\\Testimonials.js -> react-owl-carousel3": {
-    "id": 8694,
-    "files": [
-      "static/chunks/617777a1.1355af0053c0d8407a5e.js"
-    ]
-  },
-  "..\\components\\HomeTwo\\Projects.js -> react-owl-carousel3": {
-    "id": 8694,
-    "files": [
-      "static/chunks/617777a1.1355af0053c0d8407a5e.js"
-    ]
-  },
-  "..\\components\\HomeTwo\\Testimonials.js -> react-owl-carousel3": {
-    "id": 8694,
-    "files": [
-      "static/chunks/617777a1.1355af0053c0d8407a5e.js"
+      "static/chunks/node_modules_next_dist_client_dev_noop_js.js"
     ]
   }
 }
