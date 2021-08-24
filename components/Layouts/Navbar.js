@@ -109,17 +109,29 @@ class Navbar extends Component {
                       </Link>
                       <ul className="dropdown-menu">
                         <li className="nav-item">
-                          <Link href="#" activeClassName="active">
+                          <Link
+                            href={{
+                              pathname: "/company",
+                              query: { name: "test" },
+                            }}
+                            activeClassName="active"
+                          >
                             <a className="nav-link">Overview</a>
                           </Link>
                         </li>
                         <li className="nav-item">
-                          <Link href="#" activeClassName="active">
+                          <Link
+                            href={{
+                              pathname: "/company",
+                              query: { name: "ValueAndPhilosophy" },
+                            }}
+                            activeClassName="active"
+                          >
                             <a className="nav-link">Value / Philosophy</a>
                           </Link>
                         </li>
                         <li className="nav-item">
-                          <Link href="#" activeClassName="active">
+                          <Link href="/company" activeClassName="active">
                             <a className="nav-link">Service Locations</a>
                           </Link>
                         </li>

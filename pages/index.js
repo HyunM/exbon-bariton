@@ -9,7 +9,7 @@ import FeedbackSlider from "../components/Common/FeedbackSlider";
 import PricingCard from "../components/Common/PricingCard";
 import BlogPost from "../components/Common/BlogPost";
 import FreeTrialForm from "../components/Common/FreeTrialForm";
-import Team from "../components/Common/Team";
+import FeaturedProjects from "../components/Common/Team";
 import Footer from "../components/Layouts/Footer";
 
 class Index extends Component {
@@ -26,7 +26,7 @@ class Index extends Component {
         <PricingCard />
         <BlogPost />
         <FreeTrialForm /> */}
-        {/* <Team /> */}
+        {/* <FeaturedProjects /> */}
         <Footer />
       </>
     );
