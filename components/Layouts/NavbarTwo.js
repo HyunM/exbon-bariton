@@ -110,18 +110,18 @@ class Navbar extends Component {
 
                       <ul className="dropdown-menu">
                         <li className="nav-item">
-                          <Link href="/company" activeClassName="active">
+                          <Link href="/company">
                             <a className="nav-link">Overview</a>
                           </Link>
                         </li>
                         <li className="nav-item">
-                          <Link href="/company" activeClassName="active">
+                          <Link href="/company">
                             <a className="nav-link">Value / Philosophy</a>
                           </Link>
                         </li>
 
                         <li className="nav-item">
-                          <Link href="/company" activeClassName="active">
+                          <Link href="/company">
                             <a className="nav-link">Service Locations</a>
                           </Link>
                         </li>

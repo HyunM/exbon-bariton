@@ -22,6 +22,13 @@ const Services = () => {
     document.getElementById(tabNmae).style.display = "block";
     document.getElementById(tabNmae).className +=
       " animate__fadeInUp animate__animated";
+    if (tabNmae == "tab1") {
+      setState("Overview");
+    } else if (tabNmae == "tab2") {
+      setState("ValueAndPhilosophy");
+    } else if (tabNmae == "tab3") {
+      setState("ServiceLocations");
+    }
   };
 
   // Tab
@@ -80,7 +87,7 @@ const Services = () => {
                     openTabSection("tab1");
                   }}
                 >
-                  <i className="flaticon-income"></i>
+                  <i className="flaticon-gear"></i>
                   <span>Overview</span>
                 </li>
 
@@ -88,12 +95,15 @@ const Services = () => {
                   className={state == "ValueAndPhilosophy" && "current"}
                   onClick={e => openTabSection("tab2")}
                 >
-                  <i className="flaticon-automatic"></i>
+                  <i className="flaticon-neural"></i>
                   <span>Value / Philosophy</span>
                 </li>
 
-                <li onClick={e => openTabSection("tab3")}>
-                  <i className="flaticon-locked"></i>
+                <li
+                  className={state == "ServiceLocations" && "current"}
+                  onClick={e => openTabSection("tab3")}
+                >
+                  <i className="flaticon-ceo"></i>
                   <span>Service Locations</span>
                 </li>
               </ul>
@@ -115,7 +125,7 @@ const Services = () => {
                       use a passage.
                     </p>
 
-                    <Link href="/service-details">
+                    <Link href="#">
                       <a className="btn btn-primary">Read More</a>
                     </Link>
                   </div>
@@ -135,7 +145,7 @@ const Services = () => {
                       use a passage.
                     </p>
 
-                    <Link href="/service-details">
+                    <Link href="#">
                       <a className="btn btn-primary">Read More</a>
                     </Link>
                   </div>
@@ -155,7 +165,7 @@ const Services = () => {
                       use a passage.
                     </p>
 
-                    <Link href="/service-details">
+                    <Link href="#">
                       <a className="btn btn-primary">Read More</a>
                     </Link>
                   </div>
@@ -175,7 +185,7 @@ const Services = () => {
                       use a passage.
                     </p>
 
-                    <Link href="/service-details">
+                    <Link href="#">
                       <a className="btn btn-primary">Read More</a>
                     </Link>
                   </div>
@@ -195,7 +205,7 @@ const Services = () => {
                       use a passage.
                     </p>
 
-                    <Link href="/service-details">
+                    <Link href="#">
                       <a className="btn btn-primary">Read More</a>
                     </Link>
                   </div>
@@ -215,7 +225,7 @@ const Services = () => {
                       use a passage.
                     </p>
 
-                    <Link href="/service-details">
+                    <Link href="#">
                       <a className="btn btn-primary">Read More</a>
                     </Link>
                   </div>

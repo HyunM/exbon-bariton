@@ -131,7 +131,13 @@ class Navbar extends Component {
                           </Link>
                         </li>
                         <li className="nav-item">
-                          <Link href="/company" activeClassName="active">
+                          <Link
+                            href={{
+                              pathname: "/company",
+                              query: { name: "ServiceLocations" },
+                            }}
+                            activeClassName="active"
+                          >
                             <a className="nav-link">Service Locations</a>
                           </Link>
                         </li>
