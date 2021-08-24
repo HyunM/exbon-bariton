@@ -71,10 +71,10 @@ const Services = () => {
       <div className="container">
         <div className="section-title">
           <h2>We Offer Professional Solutions</h2>
-          <p>
+          {/* <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
+          </p> */}
         </div>
 
         <div className="tab services-tab-list">
@@ -113,21 +113,33 @@ const Services = () => {
               <div className="tab-content">
                 <div id="tab1" className="tabs-item">
                   <div className="image">
-                    <img src="/images/services-img1.png" alt="image" />
+                    <img
+                      src="/images/overview.jpg"
+                      alt="image"
+                      style={{ width: "900px", height: "400px" }}
+                    />
                   </div>
 
                   <div className="content">
+                    <h1>An Opportunity Comes with Reputation</h1>
                     <p>
-                      1There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered alteration in
-                      some form, by injected humour, or randomized words which
-                      don't look even slightly believable. If you are going to
-                      use a passage.
+                      Over the years, Exbon Development Inc. has built a solid
+                      reputation by providing commercial and public building
+                      related construction. Our dedication to integrity,
+                      quality, efficiency, and safety has made us a leader in
+                      the general construction industry. Our success has been
+                      powered by a strong attention to detail, a commitment to
+                      deliver the highest level of quality to our valued
+                      clients, and exceptional team-building ability. From the
+                      early planning stages through construction close-out, the
+                      Exbon project team strives to exceed the expectations of
+                      our customers, and this approach is exhibited regardless
+                      of project size.
                     </p>
 
-                    <Link href="#">
+                    {/* <Link href="#">
                       <a className="btn btn-primary">Read More</a>
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
 
