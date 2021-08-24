@@ -125,11 +125,11 @@ class Footer extends Component {
                   </li>
                   <li>
                     <span>Phone:</span>
-                    (714) 539-2222
+                    +1 (714) 539-2222
                   </li>
                   <li>
                     <span>Fax:</span>
-                    (714) 539-2223
+                    +1 (714) 539-2223
                   </li>
                 </ul>
               </div>
