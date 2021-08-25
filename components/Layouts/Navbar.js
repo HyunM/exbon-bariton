@@ -110,10 +110,11 @@ class Navbar extends Component {
                       <ul className="dropdown-menu">
                         <li className="nav-item">
                           <Link
-                            href={{
-                              pathname: "/company",
-                              query: { name: "Overview" },
-                            }}
+                            // href={{
+                            //   pathname: "/company",
+                            //   query: { name: "Overview" },
+                            // }}
+                            href="#"
                             activeClassName="active"
                           >
                             <a className="nav-link">Overview</a>
@@ -121,10 +122,11 @@ class Navbar extends Component {
                         </li>
                         <li className="nav-item">
                           <Link
-                            href={{
-                              pathname: "/company",
-                              query: { name: "ValueAndPhilosophy" },
-                            }}
+                            // href={{
+                            //   pathname: "/company",
+                            //   query: { name: "ValueAndPhilosophy" },
+                            // }}
+                            href="#"
                             activeClassName="active"
                           >
                             <a className="nav-link">Value / Philosophy</a>
@@ -132,10 +134,11 @@ class Navbar extends Component {
                         </li>
                         <li className="nav-item">
                           <Link
-                            href={{
-                              pathname: "/company",
-                              query: { name: "ServiceLocations" },
-                            }}
+                            // href={{
+                            //   pathname: "/company",
+                            //   query: { name: "ServiceLocations" },
+                            // }}
+                            href="#"
                             activeClassName="active"
                           >
                             <a className="nav-link">Service Locations</a>
