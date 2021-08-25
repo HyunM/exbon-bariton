@@ -17,7 +17,7 @@ class Index extends Component {
     return (
       <>
         <Navbar />
-        {/* <MainBanner /> */}
+        <MainBanner />
         {/* <About />
         <Services />
         <Webinar />
@@ -26,7 +26,7 @@ class Index extends Component {
         <PricingCard />
         <BlogPost />
         <FreeTrialForm /> */}
-        {/* <FeaturedProjects /> */}
+        <FeaturedProjects />
         <Footer />
       </>
     );

@@ -88,10 +88,10 @@ class Navbar extends Component {
                 <div className={classOne} id="navbarSupportedContent">
                   <ul className="navbar-nav">
                     <li className="nav-item">
-                      <Link href="#" activeClassName="active">
+                      <Link href="/" activeClassName="active">
                         <a
                           className="nav-link"
-                          onClick={e => e.preventDefault()}
+                          // onClick={e => e.preventDefault()}
                         >
                           Home
                         </a>
@@ -99,7 +99,7 @@ class Navbar extends Component {
                     </li>
 
                     <li className="nav-item">
-                      <Link href="#">
+                      <Link href="/">
                         <a
                           className="nav-link"
                           onClick={e => e.preventDefault()}
@@ -110,18 +110,33 @@ class Navbar extends Component {
 
                       <ul className="dropdown-menu">
                         <li className="nav-item">
-                          <Link href="/company">
+                          <Link
+                            href={{
+                              pathname: "/company",
+                              query: { name: "Overview" },
+                            }}
+                          >
                             <a className="nav-link">Overview</a>
                           </Link>
                         </li>
                         <li className="nav-item">
-                          <Link href="/company">
+                          <Link
+                            href={{
+                              pathname: "/company",
+                              query: { name: "ValueAndPhilosophy" },
+                            }}
+                          >
                             <a className="nav-link">Value / Philosophy</a>
                           </Link>
                         </li>
 
                         <li className="nav-item">
-                          <Link href="/company">
+                          <Link
+                            href={{
+                              pathname: "/company",
+                              query: { name: "ServiceLocations" },
+                            }}
+                          >
                             <a className="nav-link">Service Locations</a>
                           </Link>
                         </li>

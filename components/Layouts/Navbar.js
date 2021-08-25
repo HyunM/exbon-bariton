@@ -112,7 +112,7 @@ class Navbar extends Component {
                           <Link
                             href={{
                               pathname: "/company",
-                              query: { name: "test" },
+                              query: { name: "Overview" },
                             }}
                             activeClassName="active"
                           >
