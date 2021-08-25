@@ -18,7 +18,12 @@ class MainBanner extends Component {
                 </p>
 
                 <div className="btn-box">
-                  <Link href="/#">
+                  <Link
+                    href={{
+                      pathname: "/company",
+                      query: { name: "Overview" },
+                    }}
+                  >
                     <a className="btn btn-primary">Read More</a>
                   </Link>
 
