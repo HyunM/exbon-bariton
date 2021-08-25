@@ -83,30 +83,33 @@ class Footer extends Component {
                 <ul className="quick-links-list">
                   <li>
                     <Link
-                      href={{
-                        pathname: "/company",
-                        query: { name: "Overview" },
-                      }}
+                      // href={{
+                      //   pathname: "/company",
+                      //   query: { name: "Overview" },
+                      // }}
+                      href="#"
                     >
                       <a>About Us</a>
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href={{
-                        pathname: "/company",
-                        query: { name: "ValueAndPhilosophy" },
-                      }}
+                      // href={{
+                      //   pathname: "/company",
+                      //   query: { name: "ValueAndPhilosophy" },
+                      // }}
+                      href="#"
                     >
                       <a>Value / Philosophy</a>
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href={{
-                        pathname: "/company",
-                        query: { name: "ServiceLocations" },
-                      }}
+                      // href={{
+                      //   pathname: "/company",
+                      //   query: { name: "ServiceLocations" },
+                      // }}
+                      href="#"
                     >
                       <a>Service Location</a>
                     </Link>
