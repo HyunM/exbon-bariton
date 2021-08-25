@@ -10,7 +10,7 @@ class MainBanner extends Component {
             <div className="container-fluid">
               <div className="main-banner-content">
                 <h1>Together, we build better</h1>
-                <p>
+                <p style={{ color: "#ffffff", fontWeight: "600" }}>
                   With our proven record of successfully working at various
                   constructions sites for the past decades, we now have the
                   resources, knowledge, and experiences to undertake ANY JOB,
@@ -50,7 +50,7 @@ class MainBanner extends Component {
                       <a>Exbon Development, Inc.</a>
                     </Link>
                   </h3>
-                  <p>
+                  <p style={{ color: "#ffffff", fontWeight: "600" }}>
                     Over the years, Exbon Development Inc. has built a solid
                     reputation by providing commercial and public building
                     related construction.
@@ -69,7 +69,7 @@ class MainBanner extends Component {
                       <a>Construction & Remodeling</a>
                     </Link>
                   </h3>
-                  <p>
+                  <p style={{ color: "#ffffff", fontWeight: "600" }}>
                     Exbon provides a total construction management solution to
                     achieve a successful outcome by deploying customized
                     resources to meet the demands of each client.
@@ -88,7 +88,7 @@ class MainBanner extends Component {
                       <a>Together, we build better</a>
                     </Link>
                   </h3>
-                  <p>
+                  <p style={{ color: "#ffffff", fontWeight: "600" }}>
                     With our proven record of successfully working at various
                     constructions sites for the past decades, we now have the
                     resources, knowledge, and experiences to undertake ANY JOB,
