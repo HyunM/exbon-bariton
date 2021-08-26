@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import NavbarTwo from "../components/Layouts/NavbarTwo";
 import PageBanner from "../components/Common/PageBanner";
-import Services from "../components/HomeTwo/Services";
+import CompanyDetails from "../components/HomeTwo/CompanyDetail";
 import Footer from "../components/Layouts/Footer";
 
 class Company extends Component {
@@ -18,7 +18,7 @@ class Company extends Component {
           bgImgClass="item-bg1"
         />
 
-        <Services />
+        <CompanyDetails />
 
         <Footer />
       </>

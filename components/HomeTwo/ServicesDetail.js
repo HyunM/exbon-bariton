@@ -2,7 +2,7 @@ import React, { Component, useEffect, useState } from "react";
 import Router, { useRouter } from "next/router";
 import Link from "next/link";
 
-const Services = () => {
+const ServecesDetails = () => {
   const router = useRouter();
   const [state, setState] = useState(0);
 
@@ -315,4 +315,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default ServecesDetails;
