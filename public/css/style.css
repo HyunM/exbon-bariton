@@ -8890,7 +8890,7 @@ Pricing Area CSS
   margin-top: 0px !important;
   background-color: #ffffff;
   position: relative;
-  padding: 30px 0px 30px 0px;
+  padding: 30px 10px 30px 10px;
   border-radius: 5px;
 }
 
@@ -8906,7 +8906,7 @@ Pricing Area CSS
 .single-testimonials-item .client-info img {
   border-radius: 5px;
   border: 2px solid #f4f5fe;
-  width: 0px !important;
+  width: 80px !important;
   height: 80px !important;
   padding: 5px;
   display: inline-block !important;
