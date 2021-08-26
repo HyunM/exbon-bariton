@@ -19,11 +19,10 @@ class MainBanner extends Component {
 
                 <div className="btn-box">
                   <Link
-                    // href={{
-                    //   pathname: "/company",
-                    //   query: { name: "Overview" },
-                    // }}
-                    href="#"
+                    href={{
+                      pathname: "/company",
+                      query: { name: "Overview" },
+                    }}
                   >
                     <a className="btn btn-primary">Read More</a>
                   </Link>
@@ -47,7 +46,12 @@ class MainBanner extends Component {
                   </div>
 
                   <h3>
-                    <Link href="/#">
+                    <Link
+                      href={{
+                        pathname: "/company",
+                        query: { name: "Overview" },
+                      }}
+                    >
                       <a>Exbon Development, Inc.</a>
                     </Link>
                   </h3>
@@ -85,7 +89,12 @@ class MainBanner extends Component {
                   </div>
 
                   <h3>
-                    <Link href="/#">
+                    <Link
+                      href={{
+                        pathname: "/company",
+                        query: { name: "ValueAndPhilosophy" },
+                      }}
+                    >
                       <a>Together, we build better</a>
                     </Link>
                   </h3>

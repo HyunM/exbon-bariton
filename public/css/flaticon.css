@@ -104,3 +104,16 @@ Flaticon icon font: Flaticon
 .flaticon-custom:before {
   content: "\f121";
 }
+.flaticon-linkedin:before {
+  background: url("../fonts/linkedin.svg");
+  background-repeat: no-repeat;
+  background-size: cover; /* stretch the background to cover the whole element */
+
+  /* 
+       still inline, but has block features
+       meaning height and width can be set
+    */
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}

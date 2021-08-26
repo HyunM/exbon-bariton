@@ -24,11 +24,30 @@ class Footer extends Component {
 
                 <ul className="social">
                   <li>
-                    <a href="#" target="_blank">
-                      <i className="flaticon-facebook-letter-logo"></i>
+                    <a
+                      href="https://www.linkedin.com/company/exbon"
+                      target="_blank"
+                    >
+                      <img
+                        src="/fonts/linkedin.svg"
+                        style={{
+                          width: "14px",
+                          height: "14px",
+                          marginTop: "-3px",
+                        }}
+                      />
+                      {/* <i src="/fonts/linkedin.svg" /> */}
                     </a>
                   </li>
                   <li>
+                    <a
+                      href="https://m.facebook.com/Exbon-Development-Inc-173655286005737/"
+                      target="_blank"
+                    >
+                      <i className="flaticon-facebook-letter-logo"></i>
+                    </a>
+                  </li>
+                  {/* <li>
                     <a href="#" target="_blank">
                       <i className="flaticon-twitter"></i>
                     </a>
@@ -42,7 +61,7 @@ class Footer extends Component {
                     <a href="#" target="_blank">
                       <i className="flaticon-youtube-play-button"></i>
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -83,33 +102,30 @@ class Footer extends Component {
                 <ul className="quick-links-list">
                   <li>
                     <Link
-                      // href={{
-                      //   pathname: "/company",
-                      //   query: { name: "Overview" },
-                      // }}
-                      href="#"
+                      href={{
+                        pathname: "/company",
+                        query: { name: "Overview" },
+                      }}
                     >
                       <a>About Us</a>
                     </Link>
                   </li>
                   <li>
                     <Link
-                      // href={{
-                      //   pathname: "/company",
-                      //   query: { name: "ValueAndPhilosophy" },
-                      // }}
-                      href="#"
+                      href={{
+                        pathname: "/company",
+                        query: { name: "ValueAndPhilosophy" },
+                      }}
                     >
                       <a>Value / Philosophy</a>
                     </Link>
                   </li>
                   <li>
                     <Link
-                      // href={{
-                      //   pathname: "/company",
-                      //   query: { name: "ServiceLocations" },
-                      // }}
-                      href="#"
+                      href={{
+                        pathname: "/company",
+                        query: { name: "ServiceLocations" },
+                      }}
                     >
                       <a>Service Location</a>
                     </Link>

@@ -88,7 +88,7 @@ const ServecesDetails = () => {
                   }}
                 >
                   <i className="flaticon-gear"></i>
-                  <span>Overview</span>
+                  <span>Construction Management</span>
                 </li>
 
                 <li
@@ -98,7 +98,7 @@ const ServecesDetails = () => {
                   onClick={e => openTabSection("tab2")}
                 >
                   <i className="flaticon-neural"></i>
-                  <span>Value / Philosophy</span>
+                  <span>Design and Engineering</span>
                 </li>
 
                 <li
@@ -108,7 +108,29 @@ const ServecesDetails = () => {
                   onClick={e => openTabSection("tab3")}
                 >
                   <i className="flaticon-ceo"></i>
-                  <span>Service Locations</span>
+                  <span>Vertical Construction</span>
+                </li>
+
+                <li
+                  className={
+                    state == "ServiceLocations" ? "current" : undefined
+                  }
+                  onClick={e => openTabSection("tab4")}
+                >
+                  <i className="flaticon-ceo"></i>
+                  <span>Horizontal Construction</span>
+                </li>
+
+                <li
+                  className={
+                    state == "ServiceLocations" ? "current" : undefined
+                  }
+                  onClick={e => openTabSection("tab5")}
+                >
+                  <i className="flaticon-ceo" style={{ float: "left" }}></i>
+                  <div>
+                    <span>Sustainment / Restoration and Modernization</span>
+                  </div>
                 </li>
               </ul>
             </div>
