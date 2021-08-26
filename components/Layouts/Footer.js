@@ -155,7 +155,7 @@ class Footer extends Component {
                   </li>
                   <li>
                     <span>Email:</span>
-                    hr@exbon.com
+                    wconst@exbon.com
                   </li>
                   <li>
                     <span>Phone:</span>
