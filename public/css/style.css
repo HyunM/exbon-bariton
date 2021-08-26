@@ -41,10 +41,11 @@ Default CSS
 =================================================*/
 @import url("https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap");
+
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: #57647c;
 }
@@ -81,7 +82,7 @@ h5,
 h6 {
   color: #212529;
   font-weight: bold;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .d-table {
@@ -149,7 +150,7 @@ textarea.form-control {
   margin-bottom: 5px;
   font-weight: 600;
   font-size: 15px;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .section-title h2 {
@@ -179,7 +180,7 @@ textarea.form-control {
   z-index: 1;
   opacity: 1 !important;
   font-size: 16px;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
 }
 
@@ -210,7 +211,7 @@ textarea.form-control {
   letter-spacing: 0.5px;
   font-size: 15px;
   font-weight: 600;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .learn-more-btn i {
@@ -460,7 +461,7 @@ Navbar Area CSS
 }
 
 .main-nav .navbar .navbar-nav {
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-left: auto;
 }
 
@@ -2111,7 +2112,7 @@ Main Banner Area CSS
   color: #ffffff;
   position: relative;
   margin-left: 20px;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 700;
 }
@@ -2190,7 +2191,7 @@ Main Banner Area CSS
   color: #212529;
   position: relative;
   margin-left: 20px;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 700;
 }
@@ -2340,7 +2341,7 @@ Main Banner Area CSS
   color: #212529;
   position: relative;
   margin-left: 20px;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 700;
 }
@@ -2553,7 +2554,7 @@ About Area CSS
   position: relative;
   color: #212529;
   padding-left: 28px;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 17px;
 }
@@ -3199,7 +3200,7 @@ Services Details Area CSS
   margin-bottom: -1px;
   font-size: 15px;
   font-weight: 700;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .services-details-overview
@@ -3489,7 +3490,7 @@ Team Area CSS
   color: #ff4800;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 500;
 }
@@ -3836,7 +3837,7 @@ Pricing Area CSS
   color: #212529;
   font-size: 50px;
   font-weight: 700;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-bottom: 10px;
 }
 
@@ -3961,7 +3962,7 @@ Pricing Area CSS
   padding: 10px 30px 11px;
   margin-left: -2px;
   margin-right: -2px;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 16px;
 }
@@ -4038,7 +4039,7 @@ Blog Area CSS
   position: relative;
   margin-right: 16px;
   color: #57647c;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
 }
 
@@ -4115,7 +4116,7 @@ Blog Details Area CSS
   padding-left: 0;
   margin-bottom: 0;
   list-style-type: none;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .blog-details .article-content .entry-meta ul li {
@@ -4319,7 +4320,7 @@ blockquote,
   position: relative;
   text-align: center;
   z-index: 1;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-bottom: 20px;
   margin-top: 20px;
 }
@@ -4402,7 +4403,7 @@ blockquote::before,
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 700;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .comments-area .comment-body .reply a:hover {
@@ -4431,7 +4432,7 @@ blockquote::before,
 
 .comments-area .comment-author .fn {
   font-weight: 700;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .comments-area .comment-author .says {
@@ -4502,7 +4503,7 @@ blockquote::before,
   margin-bottom: 5px;
   color: #212529;
   font-weight: 600;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .comments-area .comment-respond input[type="date"],
@@ -4602,7 +4603,7 @@ blockquote::before,
   text-transform: uppercase;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
 }
@@ -4699,7 +4700,7 @@ Free Trial Area CSS
   -webkit-transition: 0.5s;
   transition: 0.5s;
   color: #ff4800;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 600;
 }
@@ -4861,7 +4862,7 @@ Free Trial Area CSS
   -webkit-transition: 0.5s;
   transition: 0.5s;
   color: #ffffff;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 600;
 }
@@ -4923,7 +4924,7 @@ Page Title Area CSS
 .page-title-content ul {
   padding-left: 0;
   list-style-type: none;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-top: 15px;
   margin-bottom: 0;
 }
@@ -4974,7 +4975,7 @@ Pagination Area CSS
 .pagination-area {
   margin-top: 40px;
   text-align: center;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .pagination-area .page-numbers {
@@ -5171,7 +5172,7 @@ Sidebar Area CSS
   text-transform: capitalize;
   font-weight: 700;
   font-size: 16px;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .widget-area .widget_recent_entries ul li:last-child {
@@ -5219,7 +5220,7 @@ Sidebar Area CSS
   line-height: 1.5;
   font-size: 14.5px;
   font-weight: 600;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .widget-area .widget_recent_comments ul li:last-child {
@@ -5262,7 +5263,7 @@ Sidebar Area CSS
   color: #57647c;
   font-size: 14.5px;
   font-weight: 600;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .widget-area .widget_archive ul li:last-child {
@@ -5299,7 +5300,7 @@ Sidebar Area CSS
   color: #57647c;
   padding-left: 14px;
   font-size: 14.5px;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
 }
 
@@ -5341,7 +5342,7 @@ Sidebar Area CSS
   color: #57647c;
   padding-left: 14px;
   font-size: 14.5px;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
 }
 
@@ -5449,7 +5450,7 @@ FAQ Area CSS
 }
 
 .faq-accordion .accordion .accordion__button {
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   border-bottom: none;
   color: #333333;
   cursor: pointer;
@@ -5550,7 +5551,7 @@ FAQ Area CSS
   -webkit-box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
   box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
   height: 50px;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
 
@@ -5779,7 +5780,7 @@ Coming Soon Area CSS
   margin-top: 15px;
   font-size: 45px;
   font-weight: 700;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .coming-soon-area .coming-soon-time #timer div span {
@@ -5828,7 +5829,7 @@ Contact Area CSS
   -webkit-box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
   box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
   height: 50px;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
 
@@ -7712,7 +7713,7 @@ Main Banner Area CSS
   color: #212529;
   position: relative;
   margin-left: 20px;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 700;
 }
@@ -8238,7 +8239,7 @@ Newsletter Area CSS
   color: #ffffff;
   background-color: #ff4800;
   font-size: 16px;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
 }
 
@@ -8274,7 +8275,7 @@ Fun Facts Area CSS
 }
 
 .single-funfacts h3 .odometer-auto-theme {
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .single-funfacts p {
@@ -8537,7 +8538,7 @@ Pricing Area CSS
 .single-pricing-box .price {
   font-size: 50px;
   font-weight: 700;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-bottom: 10px;
 }
 
@@ -8650,7 +8651,7 @@ Pricing Area CSS
   cursor: pointer;
   margin-left: -2px;
   margin-right: -2px;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 16px;
 }
@@ -8726,7 +8727,7 @@ Pricing Area CSS
   color: #212529;
   font-size: 50px;
   font-weight: 700;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-bottom: 10px;
 }
 
@@ -9121,7 +9122,7 @@ Shop Area CSS
 }
 
 .woocommerce-topbar .woocommerce-result-count p {
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
 
@@ -9140,7 +9141,7 @@ Shop Area CSS
   height: unset;
   line-height: initial;
   padding: 15px 35px 15px 20px;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
 
@@ -9183,7 +9184,7 @@ Shop Area CSS
   text-transform: uppercase;
   opacity: 0;
   visibility: hidden;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 600;
 }
@@ -9213,7 +9214,7 @@ Shop Area CSS
   text-align: center;
   border-radius: 50%;
   text-transform: uppercase;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
 }
 
@@ -9229,7 +9230,7 @@ Shop Area CSS
 
 .single-product-box .product-content .price {
   color: #212529;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
 
@@ -9277,7 +9278,7 @@ Product Details Area CSS
 .product-details-desc .price {
   margin-bottom: 10px;
   color: #212529;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
 
@@ -9586,7 +9587,7 @@ Product Details Area CSS
   padding-right: 30px;
   padding-left: 48px;
   font-weight: 700;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .products-details-tab .tabs li .dot {
@@ -9711,7 +9712,7 @@ Product Details Area CSS
   display: inline-block;
   width: 30%;
   color: #212529;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 600;
 }
@@ -9948,7 +9949,7 @@ Product Details Area CSS
   margin-bottom: 8px;
   font-size: 14px;
   font-weight: 600;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .products-details-tab
@@ -10001,7 +10002,7 @@ Cart Area CSS
   text-transform: uppercase;
   border: none;
   font-weight: 700;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
 }
 
@@ -10024,7 +10025,7 @@ Cart Area CSS
 }
 
 .cart-table table tbody tr td.product-name {
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
 }
 
@@ -10200,7 +10201,7 @@ Cart Area CSS
   color: #212529;
   overflow: hidden;
   font-weight: 700;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
 }
 
@@ -10216,7 +10217,7 @@ Cart Area CSS
   float: right;
   color: #57647c;
   font-weight: normal;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
 
@@ -10280,7 +10281,7 @@ Checkout Area CSS
   margin-bottom: 7px;
   font-size: 14px;
   font-weight: 600;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .billing-details .form-group label .required {
@@ -10307,7 +10308,7 @@ Checkout Area CSS
 
 .billing-details .form-check {
   margin-bottom: 20px;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .billing-details .form-check .form-check-label {
@@ -10339,7 +10340,7 @@ Checkout Area CSS
   padding-right: 20px;
   padding-bottom: 15px;
   font-weight: 700;
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
 }
 
@@ -10352,7 +10353,7 @@ Checkout Area CSS
 }
 
 .order-details .order-table table tbody tr td.product-name {
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
 }
 
@@ -10369,7 +10370,7 @@ Checkout Area CSS
 .order-details .order-table table tbody tr td.order-subtotal,
 .order-details .order-table table tbody tr td.order-shipping,
 .order-details .order-table table tbody tr td.total-price {
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
 }
 

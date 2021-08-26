@@ -9,7 +9,8 @@ class MainBanner extends Component {
           <div className="d-table-cell">
             <div className="container-fluid">
               <div className="main-banner-content">
-                <h1>Together, we build better</h1>
+                <h1>Together,</h1>
+                <h1>we build better</h1>
                 <p style={{ color: "#ffffff", fontWeight: "600" }}>
                   With our proven record of successfully working at various
                   constructions sites for the past decades, we now have the
