@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import NavbarTwo from "../components/Layouts/NavbarTwo";
 import PageBanner from "../components/Common/PageBanner";
-import ServicesDetails from "../components/HomeTwo/ServicesDetail";
+import ServicesDetails from "../components/HomeTwo/Services";
 import Footer from "../components/Layouts/Footer";
 import Testimonials from "../components/HomeThree/Testimonials";
 
