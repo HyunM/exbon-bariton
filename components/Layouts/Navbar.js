@@ -168,8 +168,8 @@ class Navbar extends Component {
                         <li className="nav-item">
                           <Link
                             href={{
-                              pathname: "/service",
-                              query: { name: "ConstructionManagement" },
+                              pathname: "/services",
+                              query: { name: "DesignAndEngineering" },
                             }}
                             activeClassName="active"
                           >
@@ -179,8 +179,8 @@ class Navbar extends Component {
                         <li className="nav-item">
                           <Link
                             href={{
-                              pathname: "/service",
-                              query: { name: "ConstructionManagement" },
+                              pathname: "/services",
+                              query: { name: "VerticalConstruction" },
                             }}
                             activeClassName="active"
                           >
@@ -190,8 +190,8 @@ class Navbar extends Component {
                         <li className="nav-item">
                           <Link
                             href={{
-                              pathname: "/service",
-                              query: { name: "ConstructionManagement" },
+                              pathname: "/services",
+                              query: { name: "HorizontalConstruction" },
                             }}
                             activeClassName="active"
                           >
@@ -201,8 +201,8 @@ class Navbar extends Component {
                         <li className="nav-item">
                           <Link
                             href={{
-                              pathname: "/service",
-                              query: { name: "ConstructionManagement" },
+                              pathname: "/services",
+                              query: { name: "SRAndM" },
                             }}
                             activeClassName="active"
                           >

@@ -116,7 +116,12 @@ class Navbar extends Component {
                               query: { name: "Overview" },
                             }}
                           >
-                            <a className="nav-link">Overview</a>
+                            <a
+                              className="nav-link"
+                              style={{ fontSize: "0.9rem" }}
+                            >
+                              Overview
+                            </a>
                           </Link>
                         </li>
                         <li className="nav-item">
@@ -126,7 +131,12 @@ class Navbar extends Component {
                               query: { name: "ValueAndPhilosophy" },
                             }}
                           >
-                            <a className="nav-link">Value / Philosophy</a>
+                            <a
+                              className="nav-link"
+                              style={{ fontSize: "0.9rem" }}
+                            >
+                              Value / Philosophy
+                            </a>
                           </Link>
                         </li>
 
@@ -137,7 +147,12 @@ class Navbar extends Component {
                               query: { name: "ServiceLocations" },
                             }}
                           >
-                            <a className="nav-link">Service Locations</a>
+                            <a
+                              className="nav-link"
+                              style={{ fontSize: "0.9rem" }}
+                            >
+                              Service Locations
+                            </a>
                           </Link>
                         </li>
                       </ul>
@@ -152,23 +167,81 @@ class Navbar extends Component {
 
                       <ul className="dropdown-menu">
                         <li className="nav-item">
-                          <Link href="/services" activeClassName="active">
-                            <a className="nav-link">Construction Management</a>
+                          <Link
+                            href={{
+                              pathname: "/services",
+                              query: { name: "ConstructionManagement" },
+                            }}
+                            activeClassName="active"
+                          >
+                            <a
+                              className="nav-link"
+                              style={{ fontSize: "0.9rem" }}
+                            >
+                              Construction Management
+                            </a>
                           </Link>
                         </li>
                         <li className="nav-item">
-                          <Link href="/services" activeClassName="active">
-                            <a className="nav-link">Design And Engineering</a>
+                          <Link
+                            href={{
+                              pathname: "/services",
+                              query: { name: "DesignAndEngineering" },
+                            }}
+                            activeClassName="active"
+                          >
+                            <a
+                              className="nav-link"
+                              style={{ fontSize: "0.9rem" }}
+                            >
+                              Design And Engineering
+                            </a>
                           </Link>
                         </li>
                         <li className="nav-item">
-                          <Link href="/services" activeClassName="active">
-                            <a className="nav-link">Vertical Construction</a>
+                          <Link
+                            href={{
+                              pathname: "/services",
+                              query: { name: "VerticalConstruction" },
+                            }}
+                            activeClassName="active"
+                          >
+                            <a
+                              className="nav-link"
+                              style={{ fontSize: "0.9rem" }}
+                            >
+                              Vertical Construction
+                            </a>
                           </Link>
                         </li>
                         <li className="nav-item">
-                          <Link href="/services" activeClassName="active">
-                            <a className="nav-link">
+                          <Link
+                            href={{
+                              pathname: "/services",
+                              query: { name: "HorizontalConstruction" },
+                            }}
+                            activeClassName="active"
+                          >
+                            <a
+                              className="nav-link"
+                              style={{ fontSize: "0.9rem" }}
+                            >
+                              Horizontal Construction
+                            </a>
+                          </Link>
+                        </li>
+                        <li className="nav-item">
+                          <Link
+                            href={{
+                              pathname: "/services",
+                              query: { name: "SRAndM" },
+                            }}
+                            activeClassName="active"
+                          >
+                            <a
+                              className="nav-link"
+                              style={{ fontSize: "0.9rem" }}
+                            >
                               Sustainment / Restoration and Modernization
                             </a>
                           </Link>

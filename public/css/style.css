@@ -10503,3 +10503,9 @@ Checkout Area CSS
   font-size: 14px;
 }
 /*# sourceMappingURL=style.css.map */
+
+.text-around-border {
+  /* -webkit-text-stroke: 0.2p white; */
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: #fff;
+}
