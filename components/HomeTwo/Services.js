@@ -23,11 +23,15 @@ const Services = () => {
     document.getElementById(tabNmae).className +=
       " animate__fadeInUp animate__animated";
     if (tabNmae == "tab1") {
-      setState("Overview");
+      setState("ConstructionManagement");
     } else if (tabNmae == "tab2") {
-      setState("ValueAndPhilosophy");
+      setState("DesignAndEngineering");
     } else if (tabNmae == "tab3") {
-      setState("ServiceLocations");
+      setState("VerticalConstruction");
+    } else if (tabNmae == "tab4") {
+      setState("HorizontalConstruction");
+    } else if (tabNmae == "tab5") {
+      setState("SRAndM");
     }
   };
 
@@ -54,15 +58,21 @@ const Services = () => {
   useEffect(() => {
     if (!router.isReady) return;
 
-    if (router.query.name == "Overview") {
+    if (router.query.name == "ConstructionManagement") {
       openTabSection("tab1");
-      setState("Overview");
-    } else if (router.query.name == "ValueAndPhilosophy") {
+      setState("ConstructionManagement");
+    } else if (router.query.name == "DesignAndEngineering") {
       openTabSection("tab2");
-      setState("ValueAndPhilosophy");
-    } else if (router.query.name == "ServiceLocations") {
+      setState("DesignAndEngineering");
+    } else if (router.query.name == "VerticalConstruction") {
       openTabSection("tab3");
-      setState("ServiceLocations");
+      setState("VerticalConstruction");
+    } else if (router.query.name == "HorizontalConstruction") {
+      openTabSection("tab4");
+      setState("HorizontalConstruction");
+    } else if (router.query.name == "SRAndM") {
+      openTabSection("tab5");
+      setState("SRAndM");
     }
   }, [router.isReady, router.query.name]);
 
@@ -82,7 +92,9 @@ const Services = () => {
             <div className="col-lg-4 col-md-4">
               <ul className="tabs">
                 <li
-                  className={state == "Overview" ? "current" : undefined}
+                  className={
+                    state == "ConstructionManagement" ? "current" : undefined
+                  }
                   onClick={e => {
                     openTabSection("tab1");
                   }}
@@ -93,7 +105,7 @@ const Services = () => {
 
                 <li
                   className={
-                    state == "ValueAndPhilosophy" ? "current" : undefined
+                    state == "DesignAndEngineering" ? "current" : undefined
                   }
                   onClick={e => openTabSection("tab2")}
                 >
@@ -103,7 +115,7 @@ const Services = () => {
 
                 <li
                   className={
-                    state == "ServiceLocations" ? "current" : undefined
+                    state == "VerticalConstruction" ? "current" : undefined
                   }
                   onClick={e => openTabSection("tab3")}
                 >
@@ -113,7 +125,7 @@ const Services = () => {
 
                 <li
                   className={
-                    state == "ServiceLocations" ? "current" : undefined
+                    state == "HorizontalConstruction" ? "current" : undefined
                   }
                   onClick={e => openTabSection("tab4")}
                 >
@@ -122,9 +134,7 @@ const Services = () => {
                 </li>
 
                 <li
-                  className={
-                    state == "ServiceLocations" ? "current" : undefined
-                  }
+                  className={state == "SRAndM" ? "current" : undefined}
                   onClick={e => openTabSection("tab5")}
                 >
                   <i className="flaticon-ceo" style={{ float: "left" }}></i>
@@ -140,29 +150,44 @@ const Services = () => {
                 <div id="tab1" className="tabs-item">
                   <div className="image">
                     <img
-                      src="/images/overview.jpg"
+                      src="/images/construction_management.jpg"
                       alt="image"
                       style={{ width: "900px", height: "200px" }}
                     />
                   </div>
 
                   <div className="content">
-                    <h2>An Opportunity Comes with Reputation</h2>
                     <p>
-                      Over the years, Exbon Development Inc. has built a solid
-                      reputation by providing commercial and public building
-                      related construction. Our dedication to integrity,
-                      quality, efficiency, and safety has made us a leader in
-                      the general construction industry. Our success has been
-                      powered by a strong attention to detail, a commitment to
-                      deliver the highest level of quality to our valued
-                      clients, and exceptional team-building ability. From the
-                      early planning stages through construction close-out, the
-                      Exbon project team strives to exceed the expectations of
-                      our customers, and this approach is exhibited regardless
-                      of project size.
+                      CM is the overall planning, coordination and control of a
+                      project from beginning to completion. It is also aimed at
+                      meeting a client’s requirement in order to produce a
+                      functionally and financially viable project. Exbon
+                      provides a total construction management solution with
+                      ground level “eyes and ears” to achieve a successful
+                      outcome by deploying customized resources to meet the
+                      demands of each client. Services provided include:
                     </p>
-
+                    <ul>
+                      <li>Developing a Scope of Construction</li>
+                      <li>Coordinating/Leading Contractual Negotiations</li>
+                      <li>
+                        Qualifying and Soliciting Proposals from Architects,
+                        Engineers and Contractors
+                      </li>
+                      <li>
+                        Facilitating Team Integration to Achieve Value
+                        Engineering
+                      </li>
+                      <li>
+                        Active Oversight of Construction Progress and Change
+                        Orders
+                      </li>
+                      <li>
+                        Achieving Successful Project Close-Out and Client
+                        Acceptance
+                      </li>
+                      <li>Financial Auditing to Ensure Contract Compliance</li>
+                    </ul>
                     {/* <Link href="#">
                       <a className="btn btn-primary">Read More</a>
                     </Link> */}
@@ -172,62 +197,56 @@ const Services = () => {
                 <div id="tab2" className="tabs-item">
                   <div className="image">
                     <img
-                      src="/images/value-and-philosophy.jpg"
+                      src="/images/design_engineering.jpg"
                       alt="image"
                       style={{ width: "900px", height: "200px" }}
                     />
                   </div>
 
                   <div className="content">
-                    <div
-                      style={{
-                        display: "flex",
-                        justifyContent: "space-between",
-                      }}
-                    >
-                      <div style={{ width: "50%" }}>
-                        <h2 style={{ color: "#2B95D5" }}>Integrity</h2>
-                        <p>
-                          Exbon’s culture is grounded in integrity and respect.
-                          This means working to the highest standards of ethical
-                          business culture. Our reputation for adhering to these
-                          standards is one of our most valuable assets.
-                        </p>
-                      </div>
-                      <div className="image" style={{ marginBottom: "-20px" }}>
-                        <img
-                          src="/images/valuechart.png"
-                          alt="image"
-                          style={{ width: "180px", height: "180px" }}
-                        />
-                      </div>
-                    </div>
-                    <h2 style={{ color: "#fc8724" }}>Quality</h2>
                     <p>
-                      Exbon is built upon relentless pursuit of perfection. The
-                      reliability of our performance and the enduring quality of
-                      our projects are evidenced in our quality work for our
-                      customers. We continually strive to improve our
-                      performance through other endeavors.
+                      Design and Engineering cover all engineering disciplines,
+                      including electrical, geotechnical, civil, structural, and
+                      mechanical. Exbon provides a comprehensive design services
+                      with innovative and cost effective solutions for a wide
+                      range of construction needs. We have the expertise to
+                      successfully address simple to complex conceptual design
+                      and engineering challenges.
                     </p>
-                    <h2 style={{ color: "#78be43" }}>Safety</h2>
-                    <p>
-                      At Exbon, we believe every accident is preventable, and we
-                      continue our pursuit of doing our work with zero
-                      accidents. No other number is acceptable. We mandate that
-                      our project managers and safety officers should be
-                      certified in 30 HRS 29 CFR 1926 OSHA Construction and
-                      Safety Training and USACE EM 385-1-1 Training.
-                      Furthermore, we provide an average of 24 hours of formal
-                      safety training to applicable project managers and safety
-                      officers every year.
-                    </p>
+                    <ul>
+                      <li>Developing a Scope of Construction</li>
+                      <li>Coordinating/Leading Contractual Negotiations</li>
+                      <li>
+                        Qualifying and Soliciting Proposals from Architects,
+                        Engineers and Contractors
+                      </li>
+                      <li>
+                        Facilitating Team Integration to Achieve Value
+                        Engineering
+                      </li>
+                      <li>
+                        Active Oversight of Construction Progress and Change
+                        Orders
+                      </li>
+                      <li>
+                        Achieving Successful Project Close-Out and Client
+                        Acceptance
+                      </li>
+                      <li>Financial Auditing to Ensure Contract Compliance</li>
+                    </ul>
+                    {/* <Link href="#">
+                      <a className="btn btn-primary">Read More</a>
+                    </Link> */}
                   </div>
                 </div>
 
                 <div id="tab3" className="tabs-item">
                   <div className="image">
-                    <img src="/images/service-locations.png" alt="image" />
+                    <img
+                      src="/images/vertical.jpg"
+                      alt="image"
+                      style={{ width: "900px", height: "200px" }}
+                    />
                   </div>
 
                   <div className="content">
@@ -248,7 +267,11 @@ const Services = () => {
 
                 <div id="tab4" className="tabs-item">
                   <div className="image">
-                    <img src="/images/service-locations.jpg" alt="image" />
+                    <img
+                      src="/images/horizontal.jpg"
+                      alt="image"
+                      style={{ width: "900px", height: "200px" }}
+                    />
                   </div>
 
                   <div className="content">
@@ -268,27 +291,11 @@ const Services = () => {
 
                 <div id="tab5" className="tabs-item">
                   <div className="image">
-                    <img src="/images/services-img1.png" alt="image" />
-                  </div>
-
-                  <div className="content">
-                    <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered alteration in
-                      some form, by injected humour, or randomized words which
-                      don't look even slightly believable. If you are going to
-                      use a passage.
-                    </p>
-
-                    <Link href="#">
-                      <a className="btn btn-primary">Read More</a>
-                    </Link>
-                  </div>
-                </div>
-
-                <div id="tab6" className="tabs-item">
-                  <div className="image">
-                    <img src="/images/services-img1.png" alt="image" />
+                    <img
+                      src="/images/srm.jpg"
+                      alt="image"
+                      style={{ width: "900px", height: "200px" }}
+                    />
                   </div>
 
                   <div className="content">
