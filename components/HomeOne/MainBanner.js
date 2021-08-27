@@ -9,8 +9,8 @@ class MainBanner extends Component {
           <div className="d-table-cell">
             <div className="container-fluid">
               <div className="main-banner-content">
-                <h1>Together,</h1>
-                <h1>we build better</h1>
+                <h1 className="text-around-border">Together,</h1>
+                <h1 className="text-around-border">we build better</h1>
                 <p
                   style={{ color: "#ffffff", fontWeight: "600" }}
                   className="text-around-border"
@@ -28,7 +28,7 @@ class MainBanner extends Component {
                       query: { name: "Overview" },
                     }}
                   >
-                    <a className="btn btn-primary">Read More</a>
+                    <a className="btn btn-primary ">Read More</a>
                   </Link>
 
                   {/* <Link href="/contact">
@@ -56,7 +56,9 @@ class MainBanner extends Component {
                         query: { name: "Overview" },
                       }}
                     >
-                      <a>Exbon Development, Inc.</a>
+                      <a className="text-around-border">
+                        Exbon Development, Inc.
+                      </a>
                     </Link>
                   </h3>
                   <p
@@ -78,7 +80,9 @@ class MainBanner extends Component {
 
                   <h3>
                     <Link href="/#">
-                      <a>Construction & Remodeling</a>
+                      <a className="text-around-border">
+                        Construction & Remodeling
+                      </a>
                     </Link>
                   </h3>
                   <p
@@ -105,10 +109,15 @@ class MainBanner extends Component {
                         query: { name: "ValueAndPhilosophy" },
                       }}
                     >
-                      <a>Together, we build better</a>
+                      <a className="text-around-border">
+                        Together, we build better
+                      </a>
                     </Link>
                   </h3>
-                  <p style={{ color: "#ffffff", fontWeight: "600" }}>
+                  <p
+                    style={{ color: "#ffffff", fontWeight: "600" }}
+                    className="text-around-border"
+                  >
                     With our proven record of successfully working at various
                     constructions sites for the past decades, we now have the
                     resources, knowledge, and experiences to undertake ANY JOB,

@@ -90,7 +90,7 @@ class Navbar extends Component {
                     <li className="nav-item">
                       <Link href="#" activeClassName="active">
                         <a
-                          className="nav-link"
+                          className="nav-link "
                           onClick={e => e.preventDefault()}
                         >
                           Home
@@ -101,7 +101,7 @@ class Navbar extends Component {
                     <li className="nav-item">
                       <Link href="#">
                         <a
-                          className="nav-link"
+                          className="nav-link "
                           onClick={e => e.preventDefault()}
                         >
                           Company <i className="fas fa-chevron-down"></i>
@@ -116,7 +116,12 @@ class Navbar extends Component {
                             }}
                             activeClassName="active"
                           >
-                            <a className="nav-link">Overview</a>
+                            <a
+                              className="nav-link"
+                              style={{ fontSize: "0.9rem" }}
+                            >
+                              Overview
+                            </a>
                           </Link>
                         </li>
                         <li className="nav-item">
@@ -127,7 +132,12 @@ class Navbar extends Component {
                             }}
                             activeClassName="active"
                           >
-                            <a className="nav-link">Value / Philosophy</a>
+                            <a
+                              className="nav-link"
+                              style={{ fontSize: "0.9rem" }}
+                            >
+                              Value / Philosophy
+                            </a>
                           </Link>
                         </li>
                         <li className="nav-item">
@@ -138,7 +148,12 @@ class Navbar extends Component {
                             }}
                             activeClassName="active"
                           >
-                            <a className="nav-link">Service Locations</a>
+                            <a
+                              className="nav-link"
+                              style={{ fontSize: "0.9rem" }}
+                            >
+                              Service Locations
+                            </a>
                           </Link>
                         </li>
                       </ul>
@@ -147,7 +162,7 @@ class Navbar extends Component {
                     <li className="nav-item">
                       <Link href="#" activeClassName="active">
                         <a
-                          className="nav-link"
+                          className="nav-link "
                           onClick={e => e.preventDefault()}
                         >
                           Services <i className="fas fa-chevron-down"></i>
@@ -162,7 +177,12 @@ class Navbar extends Component {
                               query: { name: "ConstructionManagement" },
                             }}
                           >
-                            <a className="nav-link">Construction Management</a>
+                            <a
+                              className="nav-link"
+                              style={{ fontSize: "0.9rem" }}
+                            >
+                              Construction Management
+                            </a>
                           </Link>
                         </li>
                         <li className="nav-item">
@@ -173,7 +193,12 @@ class Navbar extends Component {
                             }}
                             activeClassName="active"
                           >
-                            <a className="nav-link">Design and Engineering</a>
+                            <a
+                              className="nav-link"
+                              style={{ fontSize: "0.9rem" }}
+                            >
+                              Design and Engineering
+                            </a>
                           </Link>
                         </li>
                         <li className="nav-item">
@@ -184,7 +209,12 @@ class Navbar extends Component {
                             }}
                             activeClassName="active"
                           >
-                            <a className="nav-link">Vertical Construction</a>
+                            <a
+                              className="nav-link"
+                              style={{ fontSize: "0.9rem" }}
+                            >
+                              Vertical Construction
+                            </a>
                           </Link>
                         </li>
                         <li className="nav-item">
@@ -195,7 +225,12 @@ class Navbar extends Component {
                             }}
                             activeClassName="active"
                           >
-                            <a className="nav-link">Horizontal Construction</a>
+                            <a
+                              className="nav-link"
+                              style={{ fontSize: "0.9rem" }}
+                            >
+                              Horizontal Construction
+                            </a>
                           </Link>
                         </li>
                         <li className="nav-item">
@@ -206,7 +241,10 @@ class Navbar extends Component {
                             }}
                             activeClassName="active"
                           >
-                            <a className="nav-link">
+                            <a
+                              className="nav-link"
+                              style={{ fontSize: "0.9rem" }}
+                            >
                               Sustainment / Restoration and Modernization
                             </a>
                           </Link>
@@ -217,7 +255,7 @@ class Navbar extends Component {
                     <li className="nav-item">
                       <Link href="#">
                         <a
-                          className="nav-link"
+                          className="nav-link "
                           onClick={e => e.preventDefault()}
                         >
                           Subcontractors
@@ -228,7 +266,7 @@ class Navbar extends Component {
                     <li className="nav-item">
                       <Link href="#">
                         <a
-                          className="nav-link"
+                          className="nav-link "
                           onClick={e => e.preventDefault()}
                         >
                           Careers
@@ -238,7 +276,7 @@ class Navbar extends Component {
 
                     <li className="nav-item">
                       <Link href="/#" activeClassName="active">
-                        <a className="nav-link">Contact</a>
+                        <a className="nav-link ">Contact</a>
                       </Link>
                     </li>
                   </ul>
