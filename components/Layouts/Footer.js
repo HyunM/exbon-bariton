@@ -72,22 +72,52 @@ class Footer extends Component {
 
                 <ul className="footer-services-list">
                   <li>
-                    <Link href="#">
+                    <Link
+                      href={{
+                        pathname: "/services",
+                        query: { name: "ConstructionManagement" },
+                      }}
+                    >
                       <a>Construction Management</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
+                    <Link
+                      href={{
+                        pathname: "/services",
+                        query: { name: "DesignAndEngineering" },
+                      }}
+                    >
                       <a>Design and Engineering</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
+                    <Link
+                      href={{
+                        pathname: "/services",
+                        query: { name: "VerticalConstruction" },
+                      }}
+                    >
                       <a>Vertical Construction</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
+                    <Link
+                      href={{
+                        pathname: "/services",
+                        query: { name: "HorizontalConstruction" },
+                      }}
+                    >
+                      <a>Horizontal Construction</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href={{
+                        pathname: "/services",
+                        query: { name: "SRAndM" },
+                      }}
+                    >
                       <a>Sustainment / Restoration and Modernization</a>
                     </Link>
                   </li>

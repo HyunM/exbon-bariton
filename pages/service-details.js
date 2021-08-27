@@ -1,29 +1,29 @@
-import React, { Component } from 'react';
-import NavbarTwo from '../components/Layouts/NavbarTwo';
-import PageBanner from '../components/Common/PageBanner';
-import ServiceDetailsContent from '../components/Services/ServiceDetailsContent';
-import Footer from '../components/Layouts/Footer';
+import React, { Component } from "react";
+import NavbarTwo from "../components/Layouts/NavbarTwo";
+import PageBanner from "../components/Common/PageBanner";
+import SubcontractorsDetails from "../components/Services/ServiceDetailsContent";
+import Footer from "../components/Layouts/Footer";
 
 class ServiceDetails extends Component {
-    render() {
-        return (
-            <>
-                <NavbarTwo />
+  render() {
+    return (
+      <>
+        <NavbarTwo />
 
-                <PageBanner 
-                    pageTitle="Security & Surveillance" 
-                    homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="Service Details" 
-                    bgImgClass="item-bg2" 
-                />  
+        <PageBanner
+          pageTitle="Subcontractors"
+          homePageUrl="/"
+          homePageText="Home"
+          activePageText="Subcontractors"
+          bgImgClass="item-bg4"
+        />
 
-                <ServiceDetailsContent />
-                
-                <Footer />
-            </>
-        );
-    }
+        <SubcontractorsDetails />
+
+        <Footer />
+      </>
+    );
+  }
 }
 
 export default ServiceDetails;

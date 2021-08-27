@@ -79,7 +79,12 @@ class MainBanner extends Component {
                   </div>
 
                   <h3>
-                    <Link href="/#">
+                    <Link
+                      href={{
+                        pathname: "/services",
+                        query: { name: "ConstructionManagement" },
+                      }}
+                    >
                       <a className="text-around-border">
                         Construction & Remodeling
                       </a>
