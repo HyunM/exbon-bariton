@@ -1,18 +1,19 @@
 import React, { Component } from "react";
 import Link from "next/link";
-
+import FreeTrialForm from "../../components/Common/FreeTrialForm";
 class BlogThreeGrid extends Component {
   render() {
     return (
       <section className="blog-area ptb-110" style={{ paddingTop: "50px" }}>
         <div className="container">
           <div className="row">
+            <FreeTrialForm />
             <div
               style={{
                 display: "flex",
                 justifyContent: "center",
-                marginTop: "0px",
-                marginBottom: "50px",
+                marginTop: "20px",
+                marginBottom: "0px",
               }}
             >
               <p style={{ fontSize: "1.1rem" }}>
@@ -23,6 +24,8 @@ class BlogThreeGrid extends Component {
                 company, then Exbon is a perfect work environment for you.
               </p>
             </div>
+
+            <div style={{ marginTop: "20px" }}></div>
             <div className="col-lg-4 col-md-6">
               <div className="single-blog-post">
                 <div className="entry-post-content">
@@ -80,7 +83,6 @@ class BlogThreeGrid extends Component {
                 </div>
               </div>
             </div>
-
             <div className="col-lg-4 col-md-6">
               <div className="single-blog-post">
                 <div className="entry-post-content">
@@ -89,16 +91,55 @@ class BlogThreeGrid extends Component {
                       <a style={{ cursor: "default" }}>Estimator</a>
                     </Link>
                   </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod...
-                  </p>
+                  <a
+                    className="learn-more-btn"
+                    style={{ marginBottom: "10px" }}
+                  >
+                    Job Requirements
+                  </a>
 
-                  <a className="learn-more-btn">Read More</a>
+                  <ul>
+                    <li style={{ marginBottom: "10px" }}>
+                      Assisting with all phases of the bidding process,
+                      including prepping bid invitations and subcontractor
+                      callouts
+                    </li>
+                    <li style={{ marginBottom: "10px" }}>
+                      Collecting and evaluating subcontractor bids and vendor
+                      quotations
+                    </li>
+                    <li style={{ marginBottom: "10px" }}>
+                      Reviewing and finalizing SOWs and RFPs
+                    </li>
+                    <li style={{ marginBottom: "10px" }}>
+                      Maintaining and communicating data on construction and
+                      material cost trends
+                    </li>
+                  </ul>
+                  <a
+                    className="learn-more-btn"
+                    style={{ marginBottom: "10px", marginTop: "0px" }}
+                  >
+                    Job Qualifications
+                  </a>
+                  <ul>
+                    <li style={{ marginBottom: "10px" }}>
+                      Degree of Certificate in Civil Engineering, Construction
+                      Management, Construction Engineering, Structural
+                      Engineering, Architecture or Engineering preferred
+                    </li>
+                    <li style={{ marginBottom: "10px" }}>
+                      Strong proficiency with RSMeans, E4Clicks, eGordian and
+                      Multiple Trades
+                    </li>
+                    <li style={{ marginBottom: "10px" }}>
+                      Intermediate to Advanced level in Microsoft Office
+                      Applications (Word, Excel & MS Project)
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
-
             <div className="col-lg-4 col-md-6">
               <div className="single-blog-post">
                 <div className="entry-post-content">
@@ -109,12 +150,53 @@ class BlogThreeGrid extends Component {
                       </a>
                     </Link>
                   </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod...
-                  </p>
+                  <a
+                    className="learn-more-btn"
+                    style={{ marginBottom: "10px" }}
+                  >
+                    Job Requirements
+                  </a>
 
-                  <a className="learn-more-btn">Read More</a>
+                  <ul>
+                    <li style={{ marginBottom: "10px" }}>
+                      Determine the project plan with the ability to read and
+                      interpret drawings and specifications
+                    </li>
+                    <li style={{ marginBottom: "10px" }}>
+                      Develop and maintain submittals and RFI/RFP with
+                      coordination of Project Manager and Superintendent
+                    </li>
+                    <li style={{ marginBottom: "10px" }}>
+                      Collaborate with vendors, subcontractors, and architect
+                      engineers to achieve the customer’s expectation
+                    </li>
+                    <li style={{ marginBottom: "10px" }}>
+                      Coordination with the management team to develop cost
+                      estimates and project objectives
+                    </li>
+                  </ul>
+                  <a
+                    className="learn-more-btn"
+                    style={{ marginBottom: "10px", marginTop: "0px" }}
+                  >
+                    Job Qualifications
+                  </a>
+                  <ul>
+                    <li style={{ marginBottom: "10px" }}>
+                      Ability to multi-task under time constraints
+                    </li>
+                    <li style={{ marginBottom: "10px" }}>
+                      Proficiency in MS Office, MS Project, etc.
+                    </li>
+                    <li style={{ marginBottom: "10px" }}>
+                      Flexibility with travel requirements & overtime as
+                      necessary
+                    </li>
+                    <li style={{ marginBottom: "10px" }}>
+                      Degree in Construction Project Management, Civil
+                      Engineering or other Engineering preferred
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>

@@ -4011,7 +4011,8 @@ Blog Area CSS
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 5px;
-  background-color: #f4faff;
+  background-color: #d1e3f3;
+  /* background-color: #f4faff; */
 }
 
 .single-blog-post .entry-thumbnail a img {
@@ -4094,7 +4095,7 @@ Blog Area CSS
   box-shadow: 0 0 40px 3px rgba(0, 0, 0, 0.05);
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
-  background-color: #ffffff;
+  background-color: #e4d8d8;
 }
 
 .single-blog-post:hover .entry-thumbnail a img {
