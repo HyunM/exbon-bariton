@@ -223,66 +223,6 @@ const CompanyDetails = () => {
                     </p>
                   </div>
                 </div>
-
-                <div id="tab4" className="tabs-item">
-                  <div className="image">
-                    <img src="/images/service-locations.jpg" alt="image" />
-                  </div>
-
-                  <div className="content">
-                    <p>
-                      An Opportunity Comes with Reputation With our proven
-                      record of successfully working at various constructions
-                      sites for the past decades, we now have the resources,
-                      knowledge, and experiences to undertake ANY JOB, ANYWHERE
-                      around the world. We also have been continually completing
-                      many projects for U.S. government agencies throughout the
-                      country, seamlessly utilizing our integrated construction
-                      system tools that allow for sophisticated work sharing,
-                      fast and reliable communications and sequencing.
-                    </p>
-                  </div>
-                </div>
-
-                <div id="tab5" className="tabs-item">
-                  <div className="image">
-                    <img src="/images/services-img1.png" alt="image" />
-                  </div>
-
-                  <div className="content">
-                    <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered alteration in
-                      some form, by injected humour, or randomized words which
-                      don't look even slightly believable. If you are going to
-                      use a passage.
-                    </p>
-
-                    <Link href="#">
-                      <a className="btn btn-primary">Read More</a>
-                    </Link>
-                  </div>
-                </div>
-
-                <div id="tab6" className="tabs-item">
-                  <div className="image">
-                    <img src="/images/services-img1.png" alt="image" />
-                  </div>
-
-                  <div className="content">
-                    <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered alteration in
-                      some form, by injected humour, or randomized words which
-                      don't look even slightly believable. If you are going to
-                      use a passage.
-                    </p>
-
-                    <Link href="#">
-                      <a className="btn btn-primary">Read More</a>
-                    </Link>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

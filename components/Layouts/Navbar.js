@@ -155,22 +155,57 @@ class Navbar extends Component {
                       </Link>
                       <ul className="dropdown-menu">
                         <li className="nav-item">
-                          <Link href="#" activeClassName="active">
+                          <Link
+                            activeClassName="active"
+                            href={{
+                              pathname: "/services",
+                              query: { name: "ConstructionManagement" },
+                            }}
+                          >
                             <a className="nav-link">Construction Management</a>
                           </Link>
                         </li>
                         <li className="nav-item">
-                          <Link href="#" activeClassName="active">
+                          <Link
+                            href={{
+                              pathname: "/service",
+                              query: { name: "ConstructionManagement" },
+                            }}
+                            activeClassName="active"
+                          >
                             <a className="nav-link">Design and Engineering</a>
                           </Link>
                         </li>
                         <li className="nav-item">
-                          <Link href="#" activeClassName="active">
+                          <Link
+                            href={{
+                              pathname: "/service",
+                              query: { name: "ConstructionManagement" },
+                            }}
+                            activeClassName="active"
+                          >
                             <a className="nav-link">Vertical Construction</a>
                           </Link>
                         </li>
                         <li className="nav-item">
-                          <Link href="#" activeClassName="active">
+                          <Link
+                            href={{
+                              pathname: "/service",
+                              query: { name: "ConstructionManagement" },
+                            }}
+                            activeClassName="active"
+                          >
+                            <a className="nav-link">Horizontal Construction</a>
+                          </Link>
+                        </li>
+                        <li className="nav-item">
+                          <Link
+                            href={{
+                              pathname: "/service",
+                              query: { name: "ConstructionManagement" },
+                            }}
+                            activeClassName="active"
+                          >
                             <a className="nav-link">
                               Sustainment / Restoration and Modernization
                             </a>

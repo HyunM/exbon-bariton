@@ -214,25 +214,19 @@ const Services = () => {
                       and engineering challenges.
                     </p>
                     <ul>
-                      <li>Developing a Scope of Construction</li>
-                      <li>Coordinating/Leading Contractual Negotiations</li>
                       <li>
-                        Qualifying and Soliciting Proposals from Architects,
-                        Engineers and Contractors
+                        Conceptual, Preliminary, and Detailed Design and
+                        Analysis
                       </li>
+                      <li>
+                        Value Engineering, Design, and Alternatives Assessment
+                      </li>
+                      <li>Project Engineering</li>
                       <li>
                         Facilitating Team Integration to Achieve Value
                         Engineering
                       </li>
-                      <li>
-                        Active Oversight of Construction Progress and Change
-                        Orders
-                      </li>
-                      <li>
-                        Achieving Successful Project Close-Out and Client
-                        Acceptance
-                      </li>
-                      <li>Financial Auditing to Ensure Contract Compliance</li>
+                      <li>Design Criteria Development</li>
                     </ul>
                     {/* <Link href="#">
                       <a className="btn btn-primary">Read More</a>
@@ -250,18 +244,35 @@ const Services = () => {
                   </div>
 
                   <div className="content">
-                    <h2>An Opportunity Comes with Reputation </h2>
                     <p>
-                      With our proven record of successfully working at various
-                      constructions sites for the past decades, we now have the
-                      resources, knowledge, and experiences to undertake ANY
-                      JOB, ANYWHERE around the world. We also have been
-                      continually completing many projects for U.S. government
-                      agencies throughout the country, seamlessly utilizing our
-                      integrated construction system tools that allow for
-                      sophisticated work sharing, fast and reliable
-                      communications and sequencing.
+                      Exbon performs many types of construction projects. To our
+                      clients, this advantage translates to greater accuracy in
+                      cost estimation, fewer problems during construction, and
+                      realistic design and construction scheduling.
                     </p>
+                    <p>
+                      Over ninety eight percent of our projects are completed on
+                      time and within budget. Exbon guarantees the best value
+                      for your investment without sacrificing quality of
+                      workmanship and on-time completion.
+                    </p>
+                    <p>
+                      Our project management system ensures that subcontractors
+                      are managed to meet the project guidelines. Proper
+                      functioning of a facility requires the integration of
+                      multiple technical disciplines, as well as sensitivity to
+                      aesthetics. We provide the architecture needed for
+                      facilities, site development, and the proper interface
+                      with the surrounding community.
+                    </p>
+                    <ul>
+                      <li>Medical Facilities</li>
+                      <li>Public Facilities</li>
+                      <li>Industrial Facilities</li>
+                      <li>Commercial Office Facilities</li>
+                      <li>Housing and Dining Facilities</li>
+                      <li>Airport Facilities</li>
+                    </ul>
                   </div>
                 </div>
 
@@ -276,15 +287,12 @@ const Services = () => {
 
                   <div className="content">
                     <p>
-                      An Opportunity Comes with Reputation With our proven
-                      record of successfully working at various constructions
-                      sites for the past decades, we now have the resources,
-                      knowledge, and experiences to undertake ANY JOB, ANYWHERE
-                      around the world. We also have been continually completing
-                      many projects for U.S. government agencies throughout the
-                      country, seamlessly utilizing our integrated construction
-                      system tools that allow for sophisticated work sharing,
-                      fast and reliable communications and sequencing.
+                      Exbon has built numerous horizontal construction elements,
+                      including airfield pavements, utilities, roads, parking
+                      lots, truck yards, and storage yards. A significant
+                      portion of our work involves construction of utility
+                      systems, relocation of roads and parking areas, and paving
+                      airside runways and taxiways.
                     </p>
                   </div>
                 </div>
@@ -300,16 +308,19 @@ const Services = () => {
 
                   <div className="content">
                     <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered alteration in
-                      some form, by injected humour, or randomized words which
-                      don't look even slightly believable. If you are going to
-                      use a passage.
+                      Exbon has been performing S/RM, repair, and renovation
+                      projects for government and commercial clients over the
+                      past decades. We use the proven cost-conscious, innovative
+                      approaches to improve both the functionality and/or
+                      aesthetic qualities of infrastructure components.
                     </p>
-
-                    <Link href="#">
-                      <a className="btn btn-primary">Read More</a>
-                    </Link>
+                    <p>
+                      As with all work performed by Exbon, these improvements
+                      are executed with the utmost attention to safety and
+                      quality. We pride ourselves on our ability to make
+                      functional and aesthetic improvements to all components of
+                      facilities and utilities.
+                    </p>
                   </div>
                 </div>
               </div>
