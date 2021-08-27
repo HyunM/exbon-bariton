@@ -22,6 +22,7 @@ class Team extends Component {
 
                 <div className="content">
                   <h3>Complete Office Remodeling</h3>
+                  <br />
                   <span>Orange County</span>
                 </div>
               </div>
@@ -38,6 +39,7 @@ class Team extends Component {
 
                 <div className="content">
                   <h3>Plumbing, Electrical, Structural Steel, etc.</h3>
+                  <br />
                   <span>Los Angeles, CA</span>
                 </div>
               </div>
