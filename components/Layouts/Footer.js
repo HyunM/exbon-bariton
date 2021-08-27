@@ -161,12 +161,12 @@ class Footer extends Component {
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
+                    <Link href="/subcontractors">
                       <a>Subcontractors</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
+                    <Link href="/careers">
                       <a>Careers</a>
                     </Link>
                   </li>

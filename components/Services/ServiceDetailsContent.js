@@ -11,35 +11,12 @@ class ServiceDetailsContent extends Component {
               <p>
                 A great team creates best results. We strive to provide our
                 clients with highly qualified subcontractors and trades people
-                on site.
+                on site. Our reputation is built on the quality of our work
+                thanks in large part to the strong subcontractor relationships
+                we have in various projects.
               </p>
-
-              <p>
-                Our reputation is built on the quality of our work thanks in
-                large part to the strong subcontractor relationships we have in
-                various projects.
-              </p>
-            </div>
-
-            <div className="services-details-image">
-              <img
-                src="/images/services-details/service-details1.jpg"
-                alt="image"
-                style={{ width: "700px", height: "250px" }}
-              />
-            </div>
-          </div>
-
-          <div className="services-details-overview">
-            <div className="services-details-image mb-30">
-              <img
-                src="/images/services-details/service-details2.jpg"
-                alt="image"
-                style={{ width: "700px", height: "250px" }}
-              />
-            </div>
-
-            <div className="services-details-desc">
+              <br />
+              <br />
               <h3>Join our Team</h3>
               <p>
                 We invite qualified subcontractors who share our core
@@ -50,26 +27,12 @@ class ServiceDetailsContent extends Component {
               </p>
               <p>
                 If you are interested in registering as an Exbon subcontractor,
-                please fill out forms below and submit to us.
+                please email or call us.
               </p>
+            </div>
 
-              {/* <ul>
-                    <li>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
-                    </li>
-                    <li>
-                      Sed ut perspiciatis unde omnis iste natus error sit
-                      voluptatem accusantium doloremque laudantium, totam rem
-                      aperiam, eaque ipsa quae ab illo.
-                    </li>
-                    <li>
-                      But I must explain to you how all this mistaken idea of
-                      denouncing pleasure and praising pain was born and I will
-                      give you a complete.
-                    </li>
-                  </ul> */}
+            <div className="services-details-image">
+              <img src="/images/subcontractors1.jpg" alt="image" />
             </div>
           </div>
         </div>
