@@ -1,313 +1,163 @@
-import React, { Component } from 'react';
-import Link from 'next/link';
+import React, { Component } from "react";
+import Link from "next/link";
 
 class BlogThreeGrid extends Component {
-    render() {
-        return (
-            <section className="blog-area ptb-110">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-4 col-md-6">
-                            <div className="single-blog-post">
-                                <div className="entry-thumbnail">
-                                    <Link href="/blog-details">
-                                        <a>
-                                            <img src="/images/blog/blog1.jpg" alt="image" />
-                                        </a>
-                                    </Link>
-                                </div>
+  render() {
+    return (
+      <section className="blog-area ptb-110" style={{ paddingTop: "50px" }}>
+        <div className="container">
+          <div className="row">
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                marginTop: "0px",
+                marginBottom: "50px",
+              }}
+            >
+              <p style={{ fontSize: "1.1rem" }}>
+                Exbon is always looking for talented, educated, committed, and
+                passionate people to join our team. If you have a desire to be
+                involved in a diverse construction company that focuses its
+                efforts on helping individuals grow and succeed with the
+                company, then Exbon is a perfect work environment for you.
+              </p>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="single-blog-post">
+                <div className="entry-post-content">
+                  <h3>
+                    <Link href="/blog-details">
+                      <a style={{ cursor: "default" }}>
+                        Construction Project Manager
+                      </a>
+                    </Link>
+                  </h3>
+                  <a
+                    className="learn-more-btn"
+                    style={{ marginBottom: "10px" }}
+                  >
+                    Job Requirements
+                  </a>
 
-                                <div className="entry-post-content">
-                                    <div className="entry-meta">
-                                        <ul>
-                                            <li>
-                                                <Link href="/blog/#">
-                                                    <a>Admin</a>
-                                                </Link>
-                                            </li>
-                                            <li>March 10, 2020</li>
-                                        </ul>
-                                    </div>
-
-                                    <h3>
-                                        <Link href="/blog-details">
-                                            <a>Making Peace With The Feast Or Famine Of Freelancing</a>
-                                        </Link>
-                                    </h3>
-
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                                    
-                                    <Link href="/blog-details">
-                                        <a className="learn-more-btn">
-                                            Read More <i className="flaticon-add"></i>
-                                        </a>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6">
-                            <div className="single-blog-post">
-                                <div className="entry-thumbnail">
-                                    <Link href="/blog-details">
-                                        <a>
-                                            <img src="/images/blog/blog2.jpg" alt="image" />
-                                        </a>
-                                    </Link>
-                                </div>
-
-                                <div className="entry-post-content">
-                                    <div className="entry-meta">
-                                        <ul>
-                                            <li>
-                                                <Link href="/blog/#">
-                                                    <a>Admin</a>
-                                                </Link>
-                                            </li>
-                                            <li>March 11, 2020</li>
-                                        </ul>
-                                    </div>
-
-                                    <h3>
-                                        <Link href="/blog-details">
-                                            <a>I Used The Web For A Day On A 50 MB Budget</a>
-                                        </Link>
-                                    </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                                    
-                                    <Link href="/blog-details">
-                                        <a className="learn-more-btn">
-                                            Read More <i className="flaticon-add"></i>
-                                        </a>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6">
-                            <div className="single-blog-post">
-                                <div className="entry-thumbnail">
-                                    <Link href="/blog-details">
-                                        <a>
-                                            <img src="/images/blog/blog3.jpg" alt="image" />
-                                        </a>
-                                    </Link>
-                                </div>
-
-                                <div className="entry-post-content">
-                                    <div className="entry-meta">
-                                        <ul>
-                                            <li>
-                                                <Link href="/blog/#">
-                                                    <a>Admin</a>
-                                                </Link>
-                                            </li>
-                                            <li>March 12, 2020</li>
-                                        </ul>
-                                    </div>
-
-                                    <h3>
-                                        <Link href="/blog-details">
-                                            <a>Here are the 5 most telling signs of micromanagement</a>
-                                        </Link>
-                                    </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                                    
-                                    <Link href="/blog-details">
-                                        <a className="learn-more-btn">
-                                            Read More <i className="flaticon-add"></i>
-                                        </a>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6">
-                            <div className="single-blog-post">
-                                <div className="entry-thumbnail">
-                                    <Link href="/blog-details">
-                                        <a>
-                                            <img src="/images/blog/blog4.jpg" alt="image" />
-                                        </a>
-                                    </Link>
-                                </div>
-
-                                <div className="entry-post-content">
-                                    <div className="entry-meta">
-                                        <ul>
-                                            <li>
-                                                <Link href="/blog/#">
-                                                    <a>Admin</a>
-                                                </Link>
-                                            </li>
-                                            <li>March 13, 2020</li>
-                                        </ul>
-                                    </div>
-
-                                    <h3>
-                                        <Link href="/blog-details">
-                                            <a>Add And Show Image With Size From Elementor Widget</a>
-                                        </Link>
-                                    </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                                    
-                                    <Link href="/blog-details">
-                                        <a className="learn-more-btn">
-                                            Read More <i className="flaticon-add"></i>
-                                        </a>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6">
-                            <div className="single-blog-post">
-                                <div className="entry-thumbnail">
-                                    <Link href="/blog-details">
-                                        <a>
-                                            <img src="/images/blog/blog5.jpg" alt="image" />
-                                        </a>
-                                    </Link>
-                                </div>
-
-                                <div className="entry-post-content">
-                                    <div className="entry-meta">
-                                        <ul>
-                                            <li>
-                                                <Link href="/blog/#">
-                                                    <a>Admin</a>
-                                                </Link>
-                                            </li>
-                                            <li>March 14, 2020</li>
-                                        </ul>
-                                    </div>
-
-                                    <h3>
-                                        <Link href="/blog-details">
-                                            <a>How To The Active Menu Based On URL In Next.JS?</a>
-                                        </Link>
-                                    </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                                    
-                                    <Link href="/blog-details">
-                                        <a className="learn-more-btn">
-                                            Read More <i className="flaticon-add"></i>
-                                        </a>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6">
-                            <div className="single-blog-post">
-                                <div className="entry-thumbnail">
-                                    <Link href="/blog-details">
-                                        <a>
-                                            <img src="/images/blog/blog6.jpg" alt="image" />
-                                        </a>
-                                    </Link>
-                                </div>
-
-                                <div className="entry-post-content">
-                                    <div className="entry-meta">
-                                        <ul>
-                                            <li>
-                                                <Link href="/blog/#">
-                                                    <a>Admin</a>
-                                                </Link>
-                                            </li>
-                                            <li>March 14, 2020</li>
-                                        </ul>
-                                    </div>
-
-                                    <h3>
-                                        <Link href="/blog-details">
-                                            <a>Instagram Feed Add To Your WordPress Site</a>
-                                        </Link>
-                                    </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                                    
-                                    <Link href="/blog-details">
-                                        <a className="learn-more-btn">
-                                            Read More <i className="flaticon-add"></i>
-                                        </a>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Pagination */}
-                        <div className="col-lg-12 col-sm-12">
-                            <div className="pagination-area">
-                                <Link href="/blog/#">
-                                    <a className="prev page-numbers">
-                                        <i className="fas fa-angle-double-left"></i>
-                                    </a>
-                                </Link>
-
-                                <Link href="/blog/#">
-                                    <a className="page-numbers">1</a>
-                                </Link>
-
-                                <Link href="/blog/#">
-                                    <a className="page-numbers current">2</a>
-                                </Link>
-
-                                <Link href="/blog/#">
-                                    <a className="page-numbers">3</a>
-                                </Link>
-
-                                <Link href="/blog/#">
-                                    <a className="page-numbers">4</a>
-                                </Link>
-
-                                <Link href="/blog/#">
-                                    <a className="next page-numbers">
-                                        <i className="fas fa-angle-double-right"></i>
-                                    </a>
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
+                  <ul>
+                    <li style={{ marginBottom: "10px" }}>
+                      Ensures safety, scheduling and team development of their
+                      project while meeting customer expectations
+                    </li>
+                    <li style={{ marginBottom: "10px" }}>
+                      Understands contracts, establish project objectives,
+                      policies, procedures, and performance standards
+                    </li>
+                    <li style={{ marginBottom: "10px" }}>
+                      Collaborate with clients, project leads, team members and
+                      subcontractors
+                    </li>
+                    <li style={{ marginBottom: "10px" }}>
+                      Collaborate with engineers, architects etc. to determine
+                      the specifications of the project
+                    </li>
+                  </ul>
+                  <a
+                    className="learn-more-btn"
+                    style={{ marginBottom: "10px", marginTop: "0px" }}
+                  >
+                    Job Qualifications
+                  </a>
+                  <ul>
+                    <li style={{ marginBottom: "10px" }}>
+                      Proficiency in MS Office, MS Project, etc.
+                    </li>
+                    <li style={{ marginBottom: "10px" }}>
+                      Flexibility with travel requirements & overtime as
+                      necessary
+                    </li>
+                    <li style={{ marginBottom: "10px" }}>
+                      Bachelor’s Degree in Architecture, Civil Engineering or
+                      other Engineering preferred
+                    </li>
+                  </ul>
                 </div>
- 
-                {/* Shape Images */}
-                <div className="shape-img2">
-                    <img src="/images/shape/shape2.svg" alt="image" />
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6">
+              <div className="single-blog-post">
+                <div className="entry-post-content">
+                  <h3>
+                    <Link href="/blog-details">
+                      <a style={{ cursor: "default" }}>Estimator</a>
+                    </Link>
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod...
+                  </p>
+
+                  <a className="learn-more-btn">Read More</a>
                 </div>
-                <div className="shape-img3">
-                    <img src="/images/shape/shape3.png" alt="image" />
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6">
+              <div className="single-blog-post">
+                <div className="entry-post-content">
+                  <h3>
+                    <Link href="/blog-details">
+                      <a style={{ cursor: "default" }}>
+                        Construction Project Engineer
+                      </a>
+                    </Link>
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod...
+                  </p>
+
+                  <a className="learn-more-btn">Read More</a>
                 </div>
-                <div className="shape-img4">
-                    <img src="/images/shape/shape4.svg" alt="image" />
-                </div>
-                <div className="shape-img5">
-                    <img src="/images/shape/shape5.svg" alt="image" />
-                </div>
-                <div className="shape-img7">
-                    <img src="/images/shape/shape3.png" alt="image" />
-                </div>
-                <div className="dot-shape1">
-                    <img src="/images/shape/dot1.png" alt="image" />
-                </div>
-                <div className="dot-shape2">
-                    <img src="/images/shape/dot2.png" alt="image" />
-                </div>
-                <div className="dot-shape2">
-                    <img src="/images/shape/dot3.png" alt="image" />
-                </div>
-                <div className="dot-shape2">
-                    <img src="/images/shape/dot4.png" alt="image" />
-                </div>
-                <div className="dot-shape2">
-                    <img src="/images/shape/dot5.png" alt="image" />
-                </div>
-                <div className="dot-shape2">
-                    <img src="/images/shape/dot6.png" alt="image" />
-                </div>
-            </section>
-        );
-    }
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Shape Images */}
+        <div className="shape-img2">
+          <img src="/images/shape/shape2.svg" alt="image" />
+        </div>
+        <div className="shape-img3">
+          <img src="/images/shape/shape3.png" alt="image" />
+        </div>
+        <div className="shape-img4">
+          <img src="/images/shape/shape4.svg" alt="image" />
+        </div>
+        <div className="shape-img5">
+          <img src="/images/shape/shape5.svg" alt="image" />
+        </div>
+        <div className="shape-img7">
+          <img src="/images/shape/shape3.png" alt="image" />
+        </div>
+        <div className="dot-shape1">
+          <img src="/images/shape/dot1.png" alt="image" />
+        </div>
+        <div className="dot-shape2">
+          <img src="/images/shape/dot2.png" alt="image" />
+        </div>
+        <div className="dot-shape2">
+          <img src="/images/shape/dot3.png" alt="image" />
+        </div>
+        <div className="dot-shape2">
+          <img src="/images/shape/dot4.png" alt="image" />
+        </div>
+        <div className="dot-shape2">
+          <img src="/images/shape/dot5.png" alt="image" />
+        </div>
+        <div className="dot-shape2">
+          <img src="/images/shape/dot6.png" alt="image" />
+        </div>
+      </section>
+    );
+  }
 }
 
 export default BlogThreeGrid;
