@@ -4921,6 +4921,9 @@ Page Title Area CSS
 .page-title-area.item-bg5 {
   background-image: url(/images/careers_img.jpg);
 }
+.page-title-area.item-bg6 {
+  background-image: url(/images/contact_img.jpg);
+}
 
 .page-title-content h2 {
   margin-bottom: 0;
