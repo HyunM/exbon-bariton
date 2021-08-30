@@ -41,7 +41,7 @@ class Footer extends Component {
                   </li>
                   <li>
                     <a
-                      href="https://m.facebook.com/Exbon-Development-Inc-173655286005737/"
+                      href="https://www.facebook.com/pages/category/Community/Exbon-Development-Inc-173655286005737/"
                       target="_blank"
                     >
                       <i className="flaticon-facebook-letter-logo"></i>

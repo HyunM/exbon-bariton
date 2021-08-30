@@ -14,7 +14,7 @@ const careers = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="Careers"
-        bgImgClass="item-bg6"
+        bgImgClass="item-bg5"
       />
       {/* <FreeTrialForm /> */}
       <BlogThreeGrid />

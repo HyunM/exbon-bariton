@@ -15,10 +15,10 @@ class Contact extends Component {
           homePageUrl="/"
           homePageText="Home"
           activePageText="Contact"
-          bgImgClass="item-bg1"
+          bgImgClass="item-bg6"
         />
 
-        {/* <ContactFormContent /> */}
+        <ContactFormContent />
 
         <Footer />
       </>

@@ -30,7 +30,7 @@ class BlogThreeGrid extends Component {
               <div className="single-blog-post">
                 <div className="entry-post-content">
                   <h3>
-                    <Link href="/blog-details">
+                    <Link href="#">
                       <a style={{ cursor: "default" }}>
                         Construction Project Manager
                       </a>
@@ -87,7 +87,7 @@ class BlogThreeGrid extends Component {
               <div className="single-blog-post">
                 <div className="entry-post-content">
                   <h3>
-                    <Link href="/blog-details">
+                    <Link href="#">
                       <a style={{ cursor: "default" }}>Estimator</a>
                     </Link>
                   </h3>
@@ -144,7 +144,7 @@ class BlogThreeGrid extends Component {
               <div className="single-blog-post">
                 <div className="entry-post-content">
                   <h3>
-                    <Link href="/blog-details">
+                    <Link href="#">
                       <a style={{ cursor: "default" }}>
                         Construction Project Engineer
                       </a>

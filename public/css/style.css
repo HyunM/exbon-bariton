@@ -10519,3 +10519,22 @@ Checkout Area CSS
   /* -webkit-text-stroke: 0.2p white; */
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
+.number-contact {
+  color: #f74e02;
+}
+
+.number-contact:hover {
+  color: #4ac728;
+  cursor: default;
+}
+
+.email-contact {
+  color: #4ac728;
+  cursor: default;
+}
+
+.email-contact:hover {
+  color: #f74e02;
+  cursor: default;
+}
