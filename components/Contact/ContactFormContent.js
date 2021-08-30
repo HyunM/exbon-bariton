@@ -28,15 +28,16 @@ class ContactFormContent extends Component {
                   <br />
                   <span className="or">OR</span>
                   <br />
-                  <span
-                    className="email email-contact"
-                    href="mailto:wconst@exbon.com"
-                  >
-                    Email : wconst@exbon.com
+                  <span className="email email-contact">
+                    <a className="email-contact" href="mailto:wconst@exbon.com">
+                      Email : wconst@exbon.com
+                    </a>
                   </span>
                   <br />
                   <span className="email email-contact">
-                    Employment Inquiries: hr4@exbon.com
+                    <a className="email-contact" href="mailto:hr4@exbon.com">
+                      Employment Inquiries: hr4@exbon.com
+                    </a>
                   </span>
                 </h2>
               </div>
